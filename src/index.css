@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(43, 226, 119);
+}
+
+.barranavegacion a{
+
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+}
+
+.barranavegacion{
+  margin: 70px 0 ;
+}
+
+.contenedorpadre{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(208, 212, 212);
+}
+
+img{
+  width: 16%;
+  height: 190px;
+}
+.contador{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 87px;
+
+
+}
+.contador2{
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+}
+.respuesta{
+  text-align: center;
+}
+.boton1{
+  width: 80px;
+}
+
+.oscuro{
+  background-color: black;
+  color: white;
+}
